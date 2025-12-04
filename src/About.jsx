@@ -32,7 +32,7 @@ export default function About() {
       </h2>
 
       <section className="space-y-20 mt-10">
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-20 ">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20 ">
           {/* Left Slide Section */}
           <div
             className={`scroll-section transition-all  duration-700 box1 ease-out lg:ml-20 md:ml-10 transform
