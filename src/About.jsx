@@ -26,19 +26,19 @@ export default function About() {
   }, []);
 
   return (
-    <div className="text-white p-10 " id="about">
+    <div className="text-white max-w-full p-0 " id="about">
       <h2 className="text-2xl tracking-wide text-center mx-auto py-1 font-light  px-8 w-fit rounded-full backdrop-blur-md bg-white/20 text-shadow-xs text-white">
         About
       </h2>
 
-      <section className="space-y-20 mt-10">
+      <section className="space-y-20 mt-10 ">
         <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20 ">
           {/* Left Slide Section */}
           <div
-            className={`scroll-section transition-all  duration-700 box1 ease-out lg:ml-20 md:ml-10 transform
+            className={`scroll-section transition-all duration-700 box1 ease-out lg:ml-20 md:ml-10 transform
               ${visibleSections[0]
                 ? "translate-x-0 opacity-100"
-                : "-translate-x-0 opacity-0"
+                : "-translate-x-10 opacity-0"
               }
               lg:w-[80%] sm:w-[70%] md:w-[357px] p-5 rounded-3xl text-center`}
           >
@@ -85,10 +85,10 @@ export default function About() {
                   ? "translate-x-0 opacity-100"
                   : "translate-x-10 opacity-0"
                 }
-              lg:w-[60%] sm:w-[70%] md:w-[80%] md:h-[437px] lg:h-[600px] bg-white/10 backdrop-blur-md border border-white/20 
+              sm:w-[70%] md:w-[64%] md:h-[440px] lg:h-[600px] bg-white/10 backdrop-blur-md border border-white/20 
               p-5 rounded-3xl text-center`}
             >
-              <img src="/img/pro2.webp" alt="" className="rounded-3xl" />
+              <img src="/img/pro2.webp" alt="" className="rounded-3xl w-full h-full" />
             </div>
           </div>
       </section>
