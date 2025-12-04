@@ -61,7 +61,7 @@ export default function App() {
       <Background />
       <div className="max-w-screen-2xl m-auto pt-20">
 
-        <section className="typing md:my-0 border h-screen py-40">
+        <section className="typing md:my-0 h-screen py-40">
           {/* Typing Text */}
           <h1
             ref={typingRef}
