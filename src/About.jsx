@@ -38,7 +38,7 @@ export default function About() {
             className={`scroll-section transition-all  duration-700 box1 ease-out lg:ml-20 md:ml-10 transform
               ${visibleSections[0]
                 ? "translate-x-0 opacity-100"
-                : "-translate-x-10 opacity-0"
+                : "-translate-x-0 opacity-0"
               }
               lg:w-[80%] sm:w-[70%] md:w-[357px] p-5 rounded-3xl text-center`}
           >
