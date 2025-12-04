@@ -28,7 +28,7 @@ export default function Background() {
   return (
     <div
       ref={vantaRef}
-      className="fixed inset-0 w-full h-full -z-10"
+      className="fixed inset-0 w-full h-full -z-50"
     >
         
     </div>
