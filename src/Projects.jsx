@@ -12,7 +12,7 @@ export default function Projects() {
             code: "#",
         },
         {
-            title: "A Music Player",
+            title: "A Music Player (internship)",
             desc: "Music Player built with Next.js and Tailwind CSS, featuring itunes appple Api.",
             img: "/img/music.png",
             tags: ["Next.js", "Tailwind","Music Player", "itunes apple Api"],
@@ -44,7 +44,7 @@ export default function Projects() {
             code: "#",
         },
          {
-            title: "Admin Dashboard",
+            title: "Wonder Log World (internship)",
             desc: "Travel Blog Website with frontend in Vite+React.js and Tailwind css for styling and resplonsive layout.",
             img: "/img/blog.png",
             tags: ["Vite", "React.js", "Tailwind css"],
