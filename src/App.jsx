@@ -56,12 +56,12 @@ export default function App() {
 
 
   return (
-    <div className=' '>
+    <div className=''>
 
       <Background />
       <div className="max-w-screen-2xl m-auto pt-20">
 
-        <section className='typing md:my-40 my-47'>
+        <section className="typing md:my-40 my-40">
           {/* Typing Text */}
           <h1
             ref={typingRef}
@@ -70,14 +70,11 @@ export default function App() {
         </section>
 
         <About />
-
         <Skills />
-
         <Projects />
-
         <Footer />
 
-      </div >
+      </div>
 
     </div >
 

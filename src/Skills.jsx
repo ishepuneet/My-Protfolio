@@ -11,26 +11,39 @@ const skills = [
 
 export default function Skills() {
     return (
-        <div className="w-full overflow-hidden my-15 " id="Skills">
+        <div className="w-full overflow-hidden py-10" id="Skills">
 
-            <h2 className="text-2xl tracking-wide font-light text-center mx-auto py-1 px-8 w-fit rounded-full backdrop-blur-md bg-white/20 text-shadow-xs text-white">
+            {/* Title */}
+            <h2 className="text-xl sm:text-2xl md:text-3xl tracking-wide font-light text-center mx-auto py-1 px-8 w-fit rounded-full backdrop-blur-md bg-white/20 text-white">
                 Skills
             </h2>
 
-
+            {/* Scrolling Skills */}
             <div className="flex items-center my-10">
-                <div className="flex animate-scrollRight gap-8">
+                <div className="flex animate-scrollRight gap-4 sm:gap-8">
                     {[...skills, ...skills].map((skill, index) => (
                         <div
                             key={index}
-                            className="min-w-[160px] h-[160px] flex flex-col items-center cursor-pointer justify-center rounded-2xl bg-white/10 backdrop-blur-md border border-white/10 shadow-md hover:scale-105 transition-all duration-300"
+                            className="min-w-[120px] sm:min-w-[140px] md:min-w-[160px] 
+                                       h-[120px] sm:h-[140px] md:h-[160px]
+                                       flex flex-col items-center justify-center 
+                                       cursor-pointer rounded-2xl bg-white/10 backdrop-blur-md 
+                                       border border-white/10 shadow-md 
+                                       hover:scale-105 transition-all duration-300"
                         >
-                            <img src={skill.img} alt={skill.name} className="w-16 h-16 mb-3 object-contain" />
-                            <p className="text-white text-xl font-semibold">{skill.name}</p>
+                            <img
+                                src={skill.img}
+                                alt={skill.name}
+                                className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 mb-3 object-contain"
+                            />
+                            <p className="text-white text-sm sm:text-base md:text-xl font-semibold">
+                                {skill.name}
+                            </p>
                         </div>
                     ))}
                 </div>
             </div>
+
         </div>
     );
 }

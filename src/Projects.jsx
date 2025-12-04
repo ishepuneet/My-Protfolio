@@ -71,7 +71,7 @@ export default function Projects() {
             </h2>
 
             <div
-                className="flex transition-transform duration-700 my-10 ease-in-out"
+                className="flex transition-transform duration-700 my-10 ease-linear"
                 style={{ transform: `translateX(-${current * 100}%)` }}
             >
                 {projects.map((project, index) => (
