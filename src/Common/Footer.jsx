@@ -73,7 +73,7 @@ export default function Footer() {
 
     return (
         <section
-            className="text-white py-5 px-4 rounded-4xl service-sec sm:px-6 lg:px-20 "
+            className="text-white py-5 px-4 rounded-4xl service-sec my-20 sm:px-6 lg:px-20 "
             id="Contact">
 
             <h1 className="text-white text-center text-4xl sm:text-5xl service-head md:text-6xl lg:text-7xl my-10">

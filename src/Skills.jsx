@@ -11,7 +11,7 @@ const skills = [
 
 export default function Skills() {
     return (
-        <div className="w-full overflow-hidden py-10" id="Skills">
+        <div className="w-full overflow-hidden py-10 my-20" id="Skills">
 
             {/* Title */}
             <h2 className="text-xl sm:text-2xl md:text-3xl tracking-wide font-light text-center mx-auto py-1 px-8 w-fit rounded-full backdrop-blur-md bg-white/20 text-white">

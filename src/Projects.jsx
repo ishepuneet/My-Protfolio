@@ -64,7 +64,7 @@ export default function Projects() {
     }, []);
 
     return (
-        <div className="relative w-full mt-10 max-w-6xl mx-auto overflow-hidden text-white" id='projects'>
+        <div className="relative w-full my-20 max-w-6xl mx-auto overflow-hidden text-white" id='projects'>
 
             <h2 className="text-2xl tracking-wide font-light text-center mx-auto py-1 px-8 w-fit rounded-full backdrop-blur-md bg-white/20 text-shadow-xs text-white">
                 Project ShowCase

@@ -125,7 +125,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="text-white w-full px-4 sm:px-6 md:px-10 lg:px-20 py-10" id="about">
+    <div className="text-white w-full px-4 sm:px-6 md:px-10 lg:px-20 my-20 py-10" id="about">
       
       {/* Heading */}
       <h2 className="text-xl sm:text-2xl md:text-3xl tracking-wide text-center mx-auto py-1 font-light px-8 w-fit rounded-full backdrop-blur-md bg-white/20">
