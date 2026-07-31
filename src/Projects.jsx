@@ -7,7 +7,7 @@ export default function Projects() {
             title: "Pack Shifts UI Clone",
             desc: "A clone of Pack & shifts web interface built in React with modern UI styling and responsive layout.",
             img: "/img/pack.png",
-            tags: ["React.js", "Bootstrap", ],
+            tags: ["React.js", "Bootstrap",],
             demo: "https://pack-shifts.netlify.app/",
             code: "#",
         },
@@ -15,7 +15,7 @@ export default function Projects() {
             title: "A Music Player (internship)",
             desc: "Music Player built with Next.js and Tailwind CSS, featuring itunes appple Api.",
             img: "/img/music.png",
-            tags: ["Next.js", "Tailwind","Music Player", "itunes apple Api"],
+            tags: ["Next.js", "Tailwind", "Music Player", "itunes apple Api"],
             demo: "https://rhythmx.vercel.app/",
             code: "#",
         },
@@ -23,7 +23,7 @@ export default function Projects() {
             title: "Meta Newsroom",
             desc: "Desktop app replicating Meta's Newsroom UI with Tailwind CSS for styling.",
             img: "/img/meta.png",
-            tags: ["Vite+React","Tailwind css" ],
+            tags: ["Vite+React", "Tailwind css"],
             demo: "https://byteroomnews.netlify.app/",
             code: "#",
         },
@@ -31,11 +31,21 @@ export default function Projects() {
             title: "WsCube Tech project",
             desc: "WsCube Tech website UI clone built with React.js + Bootstarp for styling.",
             img: "/img/wsCube.png",
-            tags: ["React.js","Bootstrap" ],
+            tags: ["React.js", "Bootstrap"],
             demo: "https://mini-multiple-page-website.netlify.app/",
             code: "#",
         },
-         {
+        {
+
+            title: "Fitness Studio",
+            desc: "Responsive fitness platform built with React.js and Tailwind CSS with Firebase authentication, appointment booking, workout programs, and modern animations.",
+            img: "/img/fit.png",
+            tags: ["React.js", "vite", "Tailwind CSS", "Firebase"],
+            demo: "https://fitnesstudio.vercel.app",
+            code: "#",
+        },
+
+        {
             title: "FundFusion (internship)",
             desc: "FundFusion is a smart platform that connects investors, entrepreneurs, and advisors to share ideas, find funding, and grow businesses together modern UI styling and responsive layout.",
             img: "/img/fund.png",
@@ -43,7 +53,7 @@ export default function Projects() {
             demo: "https://fundfusionhub.vercel.app/",
             code: "#",
         },
-         {
+        {
             title: "Wonder Log World (internship)",
             desc: "Travel Blog Website with frontend in Vite+React.js and Tailwind css for styling and resplonsive layout.",
             img: "/img/blog.png",
