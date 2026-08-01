@@ -44,12 +44,19 @@ export default function Projects() {
             demo: "https://fitnesstudio.vercel.app",
             code: "#",
         },
-
+         {
+            title: "Miss Cheese Cake in my Style",
+           desc: "Full-stack MERN e-commerce platform with JWT authentication, product management, shopping cart, Stripe checkout, order management, dynamic offers, and an admin dashboard.",
+            img: "/img/fit.png",
+            tags: ["React.js", "vite", "Tailwind CSS", "Firebase"],
+            demo: "https://misscheesecake.vercel.app/",
+            code: "#",
+        },
         {
             title: "FundFusion (internship)",
             desc: "FundFusion is a smart platform that connects investors, entrepreneurs, and advisors to share ideas, find funding, and grow businesses together modern UI styling and responsive layout.",
             img: "/img/fund.png",
-            tags: ["Next.js", "Tailwind.css", "Firebase"],
+            tags: ["Next.js", "Tailwind.css", "mongo db", "Express.js", "Node.js"],
             demo: "https://fundfusionhub.vercel.app/",
             code: "#",
         },
