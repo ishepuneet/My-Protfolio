@@ -15,7 +15,7 @@ export default function App() {
 
     const roles = [
       'Web Developer',
-      'UI Designer',
+      // 'UI Designer',
       'Freelancer',
       'Coder',
       'Back-end Dev',
