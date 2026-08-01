@@ -163,7 +163,7 @@ export default function About() {
 
               <div className="space-y-3 text-sm sm:text-base font-light">
                 <p>Puneet</p>
-                <p>23</p>
+                <p>25</p>
                 <p>Jalandhar Cantt, Punjab</p>
                 <p>+91-7526889964</p>
                 <p>puneetkohli1102@gmail.com</p>
