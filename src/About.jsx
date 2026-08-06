@@ -98,7 +98,7 @@
 // }
 
 import React, { useEffect, useState } from "react";
-import cv from "../public/img/resume.pdf";
+import cv from "../public/img/resume.docx";
 
 export default function About() {
   const [visibleSections, setVisibleSections] = useState({});
