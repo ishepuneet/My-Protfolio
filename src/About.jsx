@@ -166,7 +166,7 @@ export default function About() {
                 <p>25</p>
                 <p>Jalandhar Cantt, Punjab</p>
                 <p>+91-7526889964</p>
-                <p>puneetkohli1102@gmail.com</p>
+                <p>kumarpuneet1102@gmail.com</p>
                 <p>India</p>
               </div>
             </div>
