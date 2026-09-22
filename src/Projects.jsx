@@ -60,14 +60,14 @@ export default function Projects() {
             demo: "https://fundfusionhub.vercel.app/",
             code: "#",
         },
-        // {
-        //     title: "Wonder Log World (internship)",
-        //     desc: "Travel Blog Website with frontend in Vite+React.js and Tailwind css for styling and resplonsive layout.",
-        //     img: "/img/blog.png",
-        //     tags: ["Vite", "React.js", "Tailwind css"],
-        //     demo: "https://wonder-log-world.vercel.app/",
-        //     code: "#",
-        // },
+        {
+            title: "Wonder Log World (internship)",
+            desc: "Travel Blog Website with frontend in Vite+React.js and Tailwind css for styling and resplonsive layout.",
+            img: "/img/blog.png",
+            tags: ["Vite", "React.js", "Tailwind css"],
+            demo: "https://wonder-log-world.vercel.app/",
+            code: "#",
+        },
          {
             title: "Urban Bites",
            desc: "Restaurant & Café Discovery Website built with Vite, React.js, and Tailwind CSS with a modern and fully responsive design.",
