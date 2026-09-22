@@ -177,7 +177,7 @@ export default function About() {
                 className="py-2.5 px-6 rounded-full border border-green-500 bg-white/10 
                 backdrop-blur-md hover:bg-green-600/20 transition text-white text-sm"
               >
-                Download CV
+                Download Resume
               </button>
             </a>
           </div>
@@ -189,7 +189,7 @@ export default function About() {
             p-4 rounded-3xl bg-white/10 backdrop-blur-md border border-white/20 sm:w-[70%] md:w-[60%] md:h-[440px] lg:h-[600px]`}
           >
             <img
-              src="/img/pro2.webp"
+              src="/img/pro.jpg"
               alt="profile"
               className="rounded-3xl w-full h-full object-cover"
             />
