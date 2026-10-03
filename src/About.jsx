@@ -12,7 +12,6 @@
 //         const rect = section.getBoundingClientRect();
 //         const isVisible = rect.top < window.innerHeight * 0.8 && rect.bottom > 0;
 
-
 //         setVisibleSections((prev) => ({
 //           ...prev,
 //           [i]: isVisible,
@@ -64,7 +63,7 @@
 //                 <li>puneetkohli1102@gmail.com</li>
 //                 <li>India</li>
 //               </ul>
-//               </div> 
+//               </div>
 
 //               <a href={cv} download>
 //                 <button
@@ -75,7 +74,6 @@
 //                 </button>
 //               </a>
 
-
 //             </div>
 
 //             {/* Right Slide Section */}
@@ -85,7 +83,7 @@
 //                   ? "translate-x-0 opacity-100"
 //                   : "translate-x-10 opacity-0"
 //                 }
-//               sm:w-[70%] md:w-[64%] md:h-[440px] lg:h-[600px] bg-white/10 backdrop-blur-md border border-white/20 
+//               sm:w-[70%] md:w-[64%] md:h-[440px] lg:h-[600px] bg-white/10 backdrop-blur-md border border-white/20
 //               p-5 rounded-3xl text-center`}
 //              >
 //               lg:w-[60%] sm:w-[70%] md:w-[80%] md:h-[437px] lg:h-[600px]
@@ -99,6 +97,7 @@
 
 import React, { useEffect, useState } from "react";
 import cv from "../public/img/resume.pdf";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function About() {
   const [visibleSections, setVisibleSections] = useState({});
@@ -125,8 +124,10 @@ export default function About() {
   }, []);
 
   return (
-    <div className="text-white w-full px-4 sm:px-6 md:px-10 lg:px-20 my-20 py-10" id="about">
-      
+    <div
+      className="text-white w-full px-4 sm:px-6 md:px-10 lg:px-20 my-20 py-10"
+      id="about"
+    >
       {/* Heading */}
       <h2 className="text-xl sm:text-2xl md:text-3xl tracking-wide text-center mx-auto py-1 font-light px-8 w-fit rounded-full backdrop-blur-md bg-white/20">
         About
@@ -135,7 +136,6 @@ export default function About() {
       {/* Main Section */}
       <section className="mt-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 justify-center items-center">
-
           {/* LEFT SIDE */}
           <div
             className={`scroll-section transition-all duration-700 overflow-hidden ease-out transform
@@ -146,8 +146,8 @@ export default function About() {
             </h2>
 
             <p className="text-gray-200 text-base sm:text-lg mb-8">
-              Design and code beautifully simple projects without overwhelming yourself. 
-              Enjoy your passion for creating with ease and love.
+              Design and code beautifully simple projects without overwhelming
+              yourself. Enjoy your passion for creating with ease and love.
             </p>
 
             {/* BIO SECTION */}
@@ -171,15 +171,30 @@ export default function About() {
               </div>
             </div>
 
-            <a href={cv} download>
-              <button
-                type="button"
-                className="py-2.5 px-6 rounded-full border border-green-500 bg-white/10 
+            <div className="flex justify-between w-[530px] ">
+              <a href={cv} download>
+                <button
+                  type="button"
+                  className="py-2.5 px-6 rounded-full border border-green-500 bg-white/10 
                 backdrop-blur-md hover:bg-green-600/20 transition text-white text-sm"
-              >
-                Download Resume
-              </button>
-            </a>
+                >
+                  Download Resume
+                </button>
+              </a>
+
+              <ul>
+                <a href="https://github.com/ishepuneet">
+                  <li className="cursor-pointer flex items-center hover:font-serif gap-2 w-50">
+                    <FaGithub /> Github Link
+                  </li>
+                </a>
+                <a href="https://www.linkedin.com/in/ishepuneet/">
+                  <li className="cursor-pointer flex items-center hover:font-serif gap-2 w-50">
+                    <FaLinkedin /> LinkedIn Link
+                  </li>
+                </a>
+              </ul>
+            </div>
           </div>
 
           {/* RIGHT SIDE IMAGE */}
@@ -194,7 +209,6 @@ export default function About() {
               className="rounded-3xl w-full h-full object-cover"
             />
           </div>
-
         </div>
       </section>
     </div>
