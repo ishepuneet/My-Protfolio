@@ -4,6 +4,7 @@ import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 import Background from './Background';
+import Certificates from './Certificates';
 
 export default function App() {
 
@@ -72,6 +73,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
+        <Certificates />
         <Footer />
 
       </div>
