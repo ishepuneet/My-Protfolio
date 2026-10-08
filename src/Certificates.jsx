@@ -17,6 +17,7 @@ export default function Certificates() {
       img: "/img/ai.png",
       link: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:cadfa186-86fc-4494-a589-0ddb80f1eecf",
     },
+      
   ];
 
   return (
