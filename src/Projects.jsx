@@ -135,7 +135,7 @@ export default function Projects() {
                                     href={project.demo}
                                     className="bg-white text-gray-900 font-medium px-4 py-2 rounded-xl hover:bg-gray-200 transition"
                                 >
-                                    Live 
+                                    Live Demo
                                 </a>
                                 {/* <a
                                     href={project.code}
