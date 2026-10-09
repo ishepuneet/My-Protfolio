@@ -11,22 +11,7 @@ export default function Projects() {
             demo: "https://pack-shifts.netlify.app/",
             code: "#",
         },
-        {
-            title: "Heaven Realty",
-            desc: "Luxury real estate website built with Vite, React.js, and Tailwind CSS, featuring responsive property listings, modern UI, and smooth interactive experiences.",
-            img: "/img/heaven.png",
-            tags: ["Vite", "React.js", "Tailwind CSS", "Three.js"],
-            demo: "https://realtyheaven.vercel.app/",
-            code: "#",
-        },
-        {
-            title: "A Music Player (internship)",
-            desc: "Music Player built with Next.js and Tailwind CSS, featuring itunes appple Api.",
-            img: "/img/music.png",
-            tags: ["Next.js", "Tailwind", "Music Player", "itunes apple Api"],
-            demo: "https://rhythmx.vercel.app/",
-            code: "#",
-        },
+     
         {
             title: "Meta Newsroom",
             desc: "Desktop app replicating Meta's Newsroom UI with Tailwind CSS for styling.",
@@ -52,14 +37,7 @@ export default function Projects() {
             demo: "https://fitnesstudio.vercel.app",
             code: "#",
         },
-        {
-            title: "Miss Cheese Cake in my Style",
-            desc: "Full-stack MERN e-commerce platform with JWT authentication, product management, shopping cart, Stripe checkout, order management, dynamic offers, and an admin dashboard.",
-            img: "/img/miss.png",
-            tags: ["Next.js", "Tailwind CSS", "Mongo db", "Express.js", "Node.js"],
-            demo: "https://misscheesecake.vercel.app/",
-            code: "#",
-        },
+        
         {
             title: "FundFusion (internship)",
             desc: "FundFusion is a smart platform that connects investors, entrepreneurs, and advisors to share ideas, find funding, and grow businesses together modern UI styling and responsive layout.",
@@ -76,14 +54,9 @@ export default function Projects() {
         //     demo: "https://wonder-log-world.vercel.app/",
         //     code: "#",
         // },
-        {
-            title: "Urban Bites",
-            desc: "Restaurant & Café Discovery Website built with Vite, React.js, and Tailwind CSS with a modern and fully responsive design.",
-            img: "/img/food.png",
-            tags: ["Vite", "React.js", "Tailwind css", "Three js"],
-            demo: "https://urbanbites-jaipur.vercel.app/",
-            code: "#",
-        },
+      
+
+
     ];
 
     const [current, setCurrent] = useState(0);

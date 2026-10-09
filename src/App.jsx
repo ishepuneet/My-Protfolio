@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import Footer from './Common/Footer'
 import About from './About';
 import Projects from './Projects';
+import Project2 from './project2';
 import Skills from './Skills';
 import Background from './Background';
 import Certificates from './Certificates';
@@ -73,6 +74,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
+        <Project2 />
         <Certificates />
         <Footer />
 
